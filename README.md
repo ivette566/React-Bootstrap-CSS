@@ -1,16 +1,32 @@
-# React + Vite
+# React Bootstrap + CSS  
+### Actividad Semana 1 - Individual
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##Descripción
+Aplicación web para llevar el control de **Tareas y Metas personales (To Do List)**.  
+El objetivo es tener un lugar donde las tareas y metas queden reflejadas por escrito, además de poder agregar una fecha límite para cumplirlas.  
 
-Currently, two official plugins are available:
+Esta primera actividad consiste en crear la **maqueta HTML** utilizando **React**, **Bootstrap** y archivos `.css`/`.scss` para los estilos.  
+El sitio debe ser **responsive** y se entrega tanto en **React Playground (playcode.io)** como en **GitHub**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##Tecnologías utilizadas
+- [React](https://react.dev/) con [Vite](https://vitejs.dev/)
+- [React Bootstrap](https://react-bootstrap.github.io/)
+- Archivos `.css` y `.scss` para estilos
 
-## React Compiler
+##Instrucciones para ejecutar el proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clonar el repositorio**  
+   ```bash
+   git clone https://github.com/ivette566/React-Bootstrap-CSS.git
+   cd React-Bootstrap-CSS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Instalar dependencias
+npm install
+Ejecutar el servidor de desarrollo
+
+bash
+npm run dev
+Abrir en el navegador  
+Copia y pega el enlace que aparece en la terminal (por defecto: http://localhost:5173/).
+
